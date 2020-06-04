@@ -13,3 +13,6 @@ https://stephengrider.github.io/playgrounds/
 
 # Api get images
 https://unsplash.com/developers
+
+# Api fake
+https://jsonplaceholder.typicode.com/
