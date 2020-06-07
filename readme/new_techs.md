@@ -16,3 +16,9 @@ https://unsplash.com/developers
 
 # Api fake
 https://jsonplaceholder.typicode.com/
+
+# Tools for handle something in js
+https://lodash.com/
+
+# Video for streammer
+https://www.twitch.tv/
