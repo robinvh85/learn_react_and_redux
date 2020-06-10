@@ -22,3 +22,9 @@ https://lodash.com/
 
 # Video for streammer
 https://www.twitch.tv/
+
+# Redux devtools
+https://github.com/reduxjs/redux-devtools
+
+# Websites using React
+https://www.airbnb.com/

@@ -7,3 +7,9 @@ https://github.com/StephenGrider/redux-code
 
 # Component
 - There are two typies: Function Component and Class Component
+
+
+## React debug
+http://localhost:3000/debug_session=abcd
+- When debug, steps action on app will keep when refresh page
+
