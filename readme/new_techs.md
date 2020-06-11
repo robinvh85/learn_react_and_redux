@@ -28,3 +28,6 @@ https://github.com/reduxjs/redux-devtools
 
 # Websites using React
 https://www.airbnb.com/
+
+# fake api server
+https://www.npmjs.com/package/json-server
