@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchStreams } from '../../actions';
+import { getStreams } from '../../actions';
 
 class StreamList extends React.Component {
   componentDidMount() {
-    this.props.fetchStreams();
+    this.props.getStreams();
   }
 
   renderAdmin(stream) {
@@ -67,4 +67,4 @@ const mapStateToProps = (state) => {
   };
 }
 
-export default connect(mapStateToProps, { fetchStreams })(StreamList);
+export default connect(mapStateToProps, { getStreams })(StreamList);

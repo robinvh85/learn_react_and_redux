@@ -4,6 +4,29 @@
       "title": "stream 1",
       "description": "des 1",
       "id": 1
+    },
+    {
+      "title": "new stream for me",
+      "description": "created by me",
+      "userId": "113247286295307596008",
+      "id": 2
+    },
+    {
+      "title": "stream vh 2",
+      "description": "VH",
+      "userId": "113247286295307596008",
+      "id": 3
+    },
+    {
+      "title": "stream 3",
+      "description": "VH 3 - 1",
+      "userId": "113247286295307596008",
+      "id": 4
+    },
+    {
+      "title": "new stream 5",
+      "description": "des 5 12",
+      "id": 5
     }
   ]
 }

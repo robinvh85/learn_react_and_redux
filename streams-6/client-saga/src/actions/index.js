@@ -31,10 +31,11 @@ export const createStream = (formValues) => async (dispatch, getState) => {
   history.push('/streams')
 }
 
-export const fetchStreams = () => async dispatch => {
-  const response = await streams.get('/streams');
-  dispatch({ type: FETCH_STREAMS, payload: response.data })
-};
+export const getStreams = () => (
+  {
+    type: FETCH_STREAMS
+  }
+);
 
 export const fetchStream = (id) => async dispatch => {
   const response = await streams.get(`/streams/${id}`);
