@@ -2,12 +2,9 @@ import streams from '../apis/streams';
 import {
   CREATE_STREAM_REQUEST,
   FETCH_STREAMS_REQUEST,
-  FETCH_STREAMS_SUCCESS,
   FETCH_STREAM_REQUEST,
-  FETCH_STREAM_SUCCESS,
   DELETE_STREAM,
-  UPDATE_STREAM_REQUEST,
-  UPDATE_STREAM_SUCCESS
+  UPDATE_STREAM_REQUEST
 } from './types';
 
 export const createStream = (formValues, userId) => (
@@ -23,13 +20,6 @@ export const fetchStreams = () => (
   }
 );
 
-export const receivedStreams = (streams) => (
-  {
-    type: FETCH_STREAMS_SUCCESS,
-    payload: streams
-  }
-);
-
 export const fetchStream = (id) => (
   {
     type: FETCH_STREAM_REQUEST,
@@ -37,24 +27,10 @@ export const fetchStream = (id) => (
   }
 );
 
-export const receivedStream = (stream) => (
-  {
-    type: FETCH_STREAM_SUCCESS,
-    payload: stream
-  }
-)
-
 export const editStream = (id, formValues) => (
   {
     type: UPDATE_STREAM_REQUEST,
     payload: { id, formValues }
-  }
-);
-
-export const updatedStream = (stream) => (
-  {
-    type: UPDATE_STREAM_SUCCESS,
-    payload: stream
   }
 );
 

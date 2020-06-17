@@ -1,5 +1,3 @@
-import streams from '../apis/streams';
-import history from '../history';
 import {
   SIGN_IN,
   SIGN_OUT
@@ -17,4 +15,3 @@ export const signOut = () => {
     type: SIGN_OUT
   };
 };
-

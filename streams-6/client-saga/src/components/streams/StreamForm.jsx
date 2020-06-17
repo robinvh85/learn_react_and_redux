@@ -1,5 +1,6 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
+import history from '../../history';
 
 class StreamForm extends React.Component {
   // renderInput(formProps) {
@@ -21,7 +22,6 @@ class StreamForm extends React.Component {
   }
 
   renderInput = ({input, label, meta}) => {
-    console.log(meta);
     const className = `field ${meta.error && meta.touched ? 'error': ''}`;
     return (
       <div className={className}>
@@ -33,8 +33,11 @@ class StreamForm extends React.Component {
   }
 
   onSubmit = (formValues) => {
-    // console.log("onSubmit", formValues);
     this.props.onSubmit(formValues);
+  }
+
+  onCancelClick = () => {
+    history.push('/streams');
   }
 
   render() {
@@ -44,6 +47,7 @@ class StreamForm extends React.Component {
         <Field name="title" component={this.renderInput} label="Enter Title" />
         <Field name="description" component={this.renderInput} label="Enter Description" />
         <button className="ui button primary">Submit</button>
+        <button onClick={this.onCancelClick} className="ui button">Cancel</button>
       </form>
     )
   }
