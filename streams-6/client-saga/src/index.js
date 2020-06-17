@@ -7,6 +7,7 @@ import createSagaMiddleware from 'redux-saga';
 import App from './components/App';
 import reducers from './reducers';
 import rootSaga from './sagas';
+import axiosInitialize from './initialize/axios';
 
 const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
 const sagaMiddleware = createSagaMiddleware();
