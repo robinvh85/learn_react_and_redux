@@ -7,8 +7,8 @@ import StreamList from './streams/StreamList';
 import StreamShow from './streams/StreamShow';
 import Header from './Header';
 import history from '../history';
-import SignupForm from './formik/SignupForm';
-import SignupFormOrigin from './formik/SignupFormOrigin';
+import SignupForm from './FormikSample/SignupForm';
+import SignupFormOrigin from './FormikSample/SignupFormOrigin';
 
 const App = () => {
   return (

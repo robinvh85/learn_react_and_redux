@@ -1,11 +1,11 @@
 import React from 'react';
 import { Formik, Form, useField, FieldArray, Field } from 'formik';
 import * as Yup from 'yup';
-import Input from '../formItems/Input';
-import Checkbox from '../formItems/Checkbox';
-import Select from '../formItems/Select';
-import Validator from '../formItems/Validator';
-import Label from '../formItems/Label';
+import Input from '../Common/Formik/Input';
+import Checkbox from '../Common/Formik/Checkbox';
+import Select from '../Common/Formik/Select';
+// import Validator from '../formItems/Validator';
+import Label from '../Common/Formik/Label';
 import i18n from '../../i18n';
 
 // And now we can use these
