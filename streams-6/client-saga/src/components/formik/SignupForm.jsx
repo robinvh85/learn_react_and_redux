@@ -6,7 +6,7 @@ import Checkbox from '../formItems/Checkbox';
 import Select from '../formItems/Select';
 import Validator from '../formItems/Validator';
 import Label from '../formItems/Label';
-import i18n from '../../initialize/i18n';
+import i18n from '../../i18n';
 
 // And now we can use these
 const SignupForm = () => {

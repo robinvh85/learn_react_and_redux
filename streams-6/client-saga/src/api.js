@@ -36,4 +36,6 @@ const checkAndAddTokenToHeader = (config) => {
   return config;
 };
 
-export default initialize;
+initialize();
+
+export default axios;

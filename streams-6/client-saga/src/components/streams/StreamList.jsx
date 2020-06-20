@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { fetchStreams } from '../../actions/streams';
+import { fetchStreams } from '../../store/streams/actions';
+import i18n from '../../i18n';
 
 class StreamList extends React.Component {
   componentDidMount() {
@@ -51,7 +52,7 @@ class StreamList extends React.Component {
   render(){
     return (
       <div>
-        <h2>Streams</h2>
+        <h2>{i18n.t('common.streams')}</h2>
         <div className="ui celled list">{ this.renderList() }</div>
         { this.renderCreate() }
       </div>

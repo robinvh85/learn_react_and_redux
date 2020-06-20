@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { createStream } from '../../actions/streams';
+import { createStream } from '../../store/streams/actions';
 import StreamForm from './StreamForm';
 
 

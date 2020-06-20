@@ -1,5 +1,5 @@
 import i18next from 'i18next'
-import lang from "../locale/lang"
+import lang from "./locales/lang"
 // import cookies from 'react-cookies'
 
 i18next.init({
